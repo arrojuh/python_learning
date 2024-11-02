@@ -1,145 +1,145 @@
 ### Questions on Data Types
 
-1. **Identifying Data Types**
-   - **Question:** What is the data type of the following values?
-     - `45`
-     - `"Hello, World!"`
-     - `3.14`
-     - `True`
-   - **Hint:** Use `type(value)` to check the data type.
+1. *Identifying Data Types*
+   - *Question:* What is the data type of the following values?
+     - 45
+     - "Hello, World!"
+     - 3.14
+     - True
+   - *Hint:* Use type(value) to check the data type.
 
-2. **Type Conversion**
-   - **Question:** Convert the integer `10` to a string and print the result.
-   - **Hint:** Use `str()` to convert an integer to a string.
+2. *Type Conversion*
+   - *Question:* Convert the integer 10 to a string and print the result.
+   - *Hint:* Use str() to convert an integer to a string.
 
-   - **Question:** Convert the string `'3.5'` to a float and print the result.
-   - **Hint:** Use `float()` to convert a string to a float.
+   - *Question:* Convert the string '3.5' to a float and print the result.
+   - *Hint:* Use float() to convert a string to a float.
 
-3. **String Manipulation**
-   - **Question:** Given the string `text = "Python Programming"`, print the length of the string.
-   - **Hint:** Use the `len()` function to find the string's length.
+3. *String Manipulation*
+   - *Question:* Given the string text = "Python Programming", print the length of the string.
+   - *Hint:* Use the len() function to find the string's length.
 
-   - **Question:** Extract and print the substring `"Python"` from `Python Programming`.
-   - **Hint:** Use slicing with `text[start:end]`.
+   - *Question:* Extract and print the substring "Python" from Python Programming.
+   - *Hint:* Use slicing with text[start:end].
 
 
 
 ### List Questions
 
-1. **Accessing Elements**
-   - **Question:** Given a list `fruits = ['apple', 'banana', 'cherry', 'date']`, retrieve and print the second element.
-     - **Hint:** Use indexing. Remember, indexing starts at 0.
+1. *Accessing Elements*
+   - *Question:* Given a list fruits = ['apple', 'banana', 'cherry', 'date'], retrieve and print the second element.
+     - *Hint:* Use indexing. Remember, indexing starts at 0.
 
-   - **Question:** Create a list `numbers = [10, 20, 30, 40, 50]` and print the last element using negative indexing.
-     - **Hint:** Negative indices start from the end of the list, with `-1` being the last element.
+   - *Question:* Create a list numbers = [10, 20, 30, 40, 50] and print the last element using negative indexing.
+     - *Hint:* Negative indices start from the end of the list, with -1 being the last element.
 
-2. **Basic List Slicing**
-   - **Question:** Given a list `colors = ['red', 'green', 'blue', 'yellow', 'purple']`, use slicing to print only the first three elements.
-     - **Hint:** To get a portion of a list, use slicing notation `list[start:end]`.
+2. *Basic List Slicing*
+   - *Question:* Given a list colors = ['red', 'green', 'blue', 'yellow', 'purple'], use slicing to print only the first three elements.
+     - *Hint:* To get a portion of a list, use slicing notation list[start:end].
 
-   - **Question:** From the list `colors = ['red', 'green', 'blue', 'yellow', 'purple']`, use slicing to print all elements except the first one.
-     - **Hint:** Leaving out the start index defaults to the beginning, and leaving out the end index defaults to the end.
+   - *Question:* From the list colors = ['red', 'green', 'blue', 'yellow', 'purple'], use slicing to print all elements except the first one.
+     - *Hint:* Leaving out the start index defaults to the beginning, and leaving out the end index defaults to the end.
 
-3. **Concatenation and Repetition**
-   - **Question:** Create two lists `a = [1, 2, 3]` and `b = [4, 5, 6]`. Concatenate them to form a new list and print it.
-     - **Hint:** Use the `+` operator to combine two lists.
+3. *Concatenation and Repetition*
+   - *Question:* Create two lists a = [1, 2, 3] and b = [4, 5, 6]. Concatenate them to form a new list and print it.
+     - *Hint:* Use the + operator to combine two lists.
 
-   - **Question:** Given a list `name = ['hello']`, create a new list by repeating it three times.
-     - **Hint:** Use the `*` operator to repeat the list multiple times.
+   - *Question:* Given a list name = ['hello'], create a new list by repeating it three times.
+     - *Hint:* Use the * operator to repeat the list multiple times.
 
-4. **List Membership**
-   - **Question:** Check if the number `10` is in the list `numbers = [5, 10, 15, 20, 25]` and print the result.
-     - **Hint:** Use the `in` keyword to check if an element exists in the list.
+4. *List Membership*
+   - *Question:* Check if the number 10 is in the list numbers = [5, 10, 15, 20, 25] and print the result.
+     - *Hint:* Use the in keyword to check if an element exists in the list.
 
-   - **Question:** Given the list `items = ['pen', 'pencil', 'eraser', 'sharpener']`, check if `'notebook'` is in the list and print the result.
-     - **Hint:** Again, use the `in` keyword.
+   - *Question:* Given the list items = ['pen', 'pencil', 'eraser', 'sharpener'], check if 'notebook' is in the list and print the result.
+     - *Hint:* Again, use the in keyword.
 
-5. **Simple Indexing**
-   - **Question:** Given a list `letters = ['a', 'b', 'c', 'd', 'e']`, find the index of `'c'` and print it.
-     - **Hint:** Use the `.index()` method to find the position of an element.
+5. *Simple Indexing*
+   - *Question:* Given a list letters = ['a', 'b', 'c', 'd', 'e'], find the index of 'c' and print it.
+     - *Hint:* Use the .index() method to find the position of an element.
 
-   - **Question:** Using the list `letters = ['a', 'b', 'c', 'd', 'e']`, try to access an element at index `5` and observe the result.
-     - **Hint:** Remember, list indices start at 0. Check if the index is within the list's length.
+   - *Question:* Using the list letters = ['a', 'b', 'c', 'd', 'e'], try to access an element at index 5 and observe the result.
+     - *Hint:* Remember, list indices start at 0. Check if the index is within the list's length.
 
-6. **List Length and Element Counting**
-   - **Question:** Find the length of the list `numbers = [3, 6, 9, 12, 15]` and print it.
-     - **Hint:** Use the `len()` function to get the number of elements in a list.
-   - **Question:** Given a list `pets = ['cat', 'dog', 'dog', 'bird', 'cat', 'dog']`, find and print how many times `'dog'` appears in the list.
-     - **Hint:** Use the `.count()` method to find occurrences of an element.
+6. *List Length and Element Counting*
+   - *Question:* Find the length of the list numbers = [3, 6, 9, 12, 15] and print it.
+     - *Hint:* Use the len() function to get the number of elements in a list.
+   - *Question:* Given a list pets = ['cat', 'dog', 'dog', 'bird', 'cat', 'dog'], find and print how many times 'dog' appears in the list.
+     - *Hint:* Use the .count() method to find occurrences of an element.
 
-7. **Basic Sorting and Reversal (using built-in functions)**
-   - **Question:** Create a list `scores = [88, 56, 90, 78, 64]`, and print the sorted version without modifying the original list.
-     - **Hint:** Use the `sorted()` function to get a sorted copy of the list.
+7. *Basic Sorting and Reversal (using built-in functions)*
+   - *Question:* Create a list scores = [88, 56, 90, 78, 64], and print the sorted version without modifying the original list.
+     - *Hint:* Use the sorted() function to get a sorted copy of the list.
 
-   - **Question:** Using the list `scores = [88, 56, 90, 78, 64]`, print the list in reverse order.
-     - **Hint:** Use the `reversed()` function or slicing with a step of `-1`.
+   - *Question:* Using the list scores = [88, 56, 90, 78, 64], print the list in reverse order.
+     - *Hint:* Use the reversed() function or slicing with a step of -1.
 
 
 
 ### Dictionary Questions 
 
-1. **Accessing Values by Key**
-   - **Question:** Given the dictionary `person = {'name': 'Alice', 'age': 25, 'city': 'New York'}`, retrieve and print the value associated with the key `'age'`.
-     - **Hint:** Access values using `dictionary[key]`.
+1. *Accessing Values by Key*
+   - *Question:* Given the dictionary person = {'name': 'Alice', 'age': 25, 'city': 'New York'}, retrieve and print the value associated with the key 'age'.
+     - *Hint:* Access values using dictionary[key].
 
-   - **Question:** Using the dictionary `book = {'title': 'Python Basics', 'author': 'John Doe', 'year': 2021}`, print the value for the key `'title'`.
-     - **Hint:** Use `dictionary[key]` syntax for retrieving values.
+   - *Question:* Using the dictionary book = {'title': 'Python Basics', 'author': 'John Doe', 'year': 2021}, print the value for the key 'title'.
+     - *Hint:* Use dictionary[key] syntax for retrieving values.
 
-2. **Adding Key-Value Pairs**
-   - **Question:** Create an empty dictionary and add a key-value pair `name: 'John'`.
-     - **Hint:** Use `dictionary[key] = value` to add a new pair.
+2. *Adding Key-Value Pairs*
+   - *Question:* Create an empty dictionary and add a key-value pair name: 'John'.
+     - *Hint:* Use dictionary[key] = value to add a new pair.
 
-   - **Question:** Given the dictionary `student = {'name': 'Emma', 'grade': 'A'}`, add a new key-value pair for `'age'` with a value of `20`.
-     - **Hint:** Use `dictionary[key] = value` syntax to add a new entry.
+   - *Question:* Given the dictionary student = {'name': 'Emma', 'grade': 'A'}, add a new key-value pair for 'age' with a value of 20.
+     - *Hint:* Use dictionary[key] = value syntax to add a new entry.
 
-3. **Updating Values**
-   - **Question:** Using the dictionary `student = {'name': 'Emma', 'grade': 'A', 'age': 20}`, change the `'grade'` to `'B'` and print the dictionary.
-     - **Hint:** Use `dictionary[key] = new_value` to update an existing key's value.
+3. *Updating Values*
+   - *Question:* Using the dictionary student = {'name': 'Emma', 'grade': 'A', 'age': 20}, change the 'grade' to 'B' and print the dictionary.
+     - *Hint:* Use dictionary[key] = new_value to update an existing key's value.
 
-   - **Question:** Given the dictionary `settings = {'volume': 50, 'brightness': 70}`, update the `'volume'` to `100`.
-     - **Hint:** Access and update the `volume` key with a new value.
+   - *Question:* Given the dictionary settings = {'volume': 50, 'brightness': 70}, update the 'volume' to 100.
+     - *Hint:* Access and update the volume key with a new value.
 
-4. **Checking for Keys**
-   - **Question:** Check if the key `'city'` exists in the dictionary `person = {'name': 'Alice', 'age': 25}` and print the result.
-     - **Hint:** Use the `in` keyword to check for a key in a dictionary.
+4. *Checking for Keys*
+   - *Question:* Check if the key 'city' exists in the dictionary person = {'name': 'Alice', 'age': 25} and print the result.
+     - *Hint:* Use the in keyword to check for a key in a dictionary.
 
-   - **Question:** Given the dictionary `car = {'brand': 'Ford', 'model': 'Mustang'}`, check if `'color'` is a key and print the result.
-     - **Hint:** Again, use the `in` keyword to check for key existence.
+   - *Question:* Given the dictionary car = {'brand': 'Ford', 'model': 'Mustang'}, check if 'color' is a key and print the result.
+     - *Hint:* Again, use the in keyword to check for key existence.
 
-5. **Simple Dictionary Operations**
-   - **Question:** Using the dictionary `inventory = {'apple': 5, 'banana': 3, 'cherry': 8}`, get and print all the keys.
-     - **Hint:** Use the `.keys()` method to get all dictionary keys.
+5. *Simple Dictionary Operations*
+   - *Question:* Using the dictionary inventory = {'apple': 5, 'banana': 3, 'cherry': 8}, get and print all the keys.
+     - *Hint:* Use the .keys() method to get all dictionary keys.
 
-   - **Question:** Given the dictionary `inventory = {'apple': 5, 'banana': 3, 'cherry': 8}`, get and print all the values.
-     - **Hint:** Use the `.values()` method to get all dictionary values.
+   - *Question:* Given the dictionary inventory = {'apple': 5, 'banana': 3, 'cherry': 8}, get and print all the values.
+     - *Hint:* Use the .values() method to get all dictionary values.
 
-6. **Removing Key-Value Pairs**
-   - **Question:** Given the dictionary `student = {'name': 'Emma', 'grade': 'A', 'age': 20}`, remove the key `'age'` and print the dictionary.
-     - **Hint:** Use the `del` keyword to remove a key-value pair.
+6. *Removing Key-Value Pairs*
+   - *Question:* Given the dictionary student = {'name': 'Emma', 'grade': 'A', 'age': 20}, remove the key 'age' and print the dictionary.
+     - *Hint:* Use the del keyword to remove a key-value pair.
 
-   - **Question:** Using the dictionary `product = {'name': 'Laptop', 'price': 800, 'stock': 5}`, delete the `'stock'` key and print the dictionary.
-     - **Hint:** Use `del dictionary[key]` to remove the specified key.
+   - *Question:* Using the dictionary product = {'name': 'Laptop', 'price': 800, 'stock': 5}, delete the 'stock' key and print the dictionary.
+     - *Hint:* Use del dictionary[key] to remove the specified key.
 
 
-8. **Merging Two Dictionaries**
-   - **Question:** Given two dictionaries `a = {'name': 'John'}` and `b = {'age': 25}`, merge them into a new dictionary and print the result.
-     - **Hint:** Use `{**dict1, **dict2}` to create a new merged dictionary.
+8. *Merging Two Dictionaries*
+   - *Question:* Given two dictionaries a = {'name': 'John'} and b = {'age': 25}, merge them into a new dictionary and print the result.
+     - *Hint:* Use {*dict1, *dict2} to create a new merged dictionary.
 
-   - **Question:** Using dictionaries `config1 = {'resolution': '1080p'}` and `config2 = {'framerate': 60}`, combine them without modifying the originals.
-     - **Hint:** `{**dict1, **dict2}` creates a new dictionary with both sets of key-value pairs.
+   - *Question:* Using dictionaries config1 = {'resolution': '1080p'} and config2 = {'framerate': 60}, combine them without modifying the originals.
+     - *Hint:* {*dict1, *dict2} creates a new dictionary with both sets of key-value pairs.
 
 
 ###If-Else Questions
 
-1. **Simple Condition Check**
-   - **Question:** Given `x = 10`, check if `x` is greater than `5` and print `"x is greater than 5"` if true.
-   - **Hint:** Use an `if` statement to check the condition.
+1. *Simple Condition Check*
+   - *Question:* Given x = 10, check if x is greater than 5 and print "x is greater than 5" if true.
+   - *Hint:* Use an if statement to check the condition.
 
-2. **If-Else Statement**
-   - **Question:** Given `y = 3`, write an if-else statement to print `"Positive"` if `y` is greater than `0`, otherwise print `"Non-positive"`.
-   - **Hint:** Use `if` for one condition and `else` for the alternative.
+2. *If-Else Statement*
+   - *Question:* Given y = 3, write an if-else statement to print "Positive" if y is greater than 0, otherwise print "Non-positive".
+   - *Hint:* Use if for one condition and else for the alternative.
 
-3. **Checking Multiple Conditions with Elif**
-   - **Question:** Given `z = -5`, write an if-elif-else statement to check if `z` is positive, zero, or negative and print the result.
-   - **Hint:** Use `if` for the first condition, `elif` for the second, and `else` for the last.
+3. *Checking Multiple Conditions with Elif*
+   - *Question:* Given z = -5, write an if-elif-else statement to check if z is positive, zero, or negative and print the result.
+   - *Hint:* Use if for the first condition, elif for the second, and else for the last.
 
